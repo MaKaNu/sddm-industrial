@@ -1,14 +1,14 @@
 //
-// This file is part of Sugar Dark, a theme for the Simple Display Desktop Manager.
+// This file is part of Industrial, a theme for the Simple Display Desktop Manager.
 //
-// Copyright 2018 Marian Arlt
+// Copyright 2022 Matti Kaupenjohann
 //
-// Sugar Dark is free software: you can redistribute it and/or modify
+// Industrial is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Sugar Dark is distributed in the hope that it will be useful,
+// Industrial is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
