@@ -90,6 +90,15 @@ Pane {
             virtualKeyboardActive: virtualKeyboard.state == "visible" ? true : false
             z: 1
         }
+				BarrierTape {
+					tapeLength: config.ScreenHeight
+					hexRadius: config.HexRadius
+					hexColumns: config.HexColumns
+					color1: config.HexColorBright
+					color2: config.HexColorDark
+					x: parent.width / 2.5 - (config.HexRadius * config.HexColumns * 3/4)
+					z: 1
+				}
 
         Button {
             id: vkb
