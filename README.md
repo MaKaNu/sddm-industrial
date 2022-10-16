@@ -1,16 +1,15 @@
 ![Screenshot of the interface of the Sugar Dark theme for SDDM](Previews/Mockup.jpg "The default interface of the Sugar Dark theme for SDDM")
 
-# Sugar Dark login theme for SDDM
+# Industrial login theme for SDDM
 
-Sugar is extremely customizable and so sweet it will probably cause you diabetes just from looking at it. Sweeten the login experience for your users, your family and yourself. Sugar is cross platform and all about user experience and functionality.
-With those principles in mind Sugar was written completely from scratch making it clean and simple not only by looks but by design too.  
+Industrial is a sddm theme based on the popular sugar dark theme. It follows the design concept of sugar dark, such the configuration is as easy and simple as the sugar dark theme user is comfotable with. 
 All controls use the **[latest Qt Quick Controls 2](http://doc.qt.io/qt-5/qtquickcontrols2-index.html)** for [increased performance](https://blog.qt.io/blog/2015/03/31/qt-quick-controls-for-embedded/) on low end or even embedded systems and beautiful color transitions.
 
 To learn how to control sugar levels you should check the [Sugar Wiki on Github](https://github.com/MarianArlt/sddm-sugar-light/wiki/Before-you-begin) or the very well documented and included [`theme.conf`](theme.conf).
 Here are some previews of nifty variable names you can set/unset/change to customize your sugar:
 `ThemeColor`, `Font`, `HourFormat`, `ForceRightToLeft`, `TranslateUsernamePlaceholder`
-This is just a teaser. There are 27 customizable variables in total! This sugar will be yours and only yours.  
-Sugar comes in two flavors. This one is for the bitter sweet. You can also check out [Sugar Light](https://www.opendesktop.org/p/1272119/).  
+This is just a teaser. There are 31 customizable variables in total! This sugar will be yours and only yours.  
+<!--Sugar comes in two flavors. This one is for the bitter sweet. You can also check out [Sugar Light](https://www.opendesktop.org/p/1272119/).  -->
 
 ### Dependencies
 
@@ -20,11 +19,14 @@ Sugar comes in two flavors. This one is for the bitter sweet. You can also check
 
 ### Installing the theme
 
-###### From KDE Plasma
+###### From KDE Plasma (Not READY)
 
 If you are on [KDE Plasma](https://www.kde.org/plasma-desktop)—by default [openSuse](https://www.opensuse.org/), [Neon](https://neon.kde.org/), [Kubuntu](https://kubuntu.org/), [KaOS](https://kaosx.us/) or [Chakra](https://www.chakralinux.org/) for example—you are lucky and can simply go to your system settings and under "Startup and Shutdown" followed by "Login Screen (SDDM)" click "Get New Theme". From there search for "Sugar Dark" and install.
 
 If for some reason you cannot find the category named "Login Screen (SDDM)" in your system settings then you are missing `sddm-kcm`. Install this little helper with your package manager first. You will be grateful you did.
+
+###### From Arch Linux (Not READY)
+There is a packaged version of Industrial 
 
 ###### From other desktop environments
 
@@ -47,13 +49,13 @@ Please read the [Sugar Wiki on Github](https://github.com/MarianArlt/sddm-sugar-
 
 ### Legal Notice
 
-Copyright (C) 2018 Marian Arlt.  
+Copyright (C) 2022 Matti Kaupenjohann.  
 
-Sugar Dark is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
+Industrial is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
 
-Sugar Dark is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.  
+Industrial is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.  
 
-You should have received a copy of the GNU General Public License along with Sugar Dark. If not, see <https://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License along with Industrial. If not, see <https://www.gnu.org/licenses/>.
 
 [Mockup psd created by Qeaql-studio - Freepik.com](https://www.freepik.com/free-photos-vectors/mockup)
 
@@ -65,8 +67,9 @@ You should have received a copy of the GNU General Public License along with Sug
 - [Finely crafted folder icons for Linux](https://www.opendesktop.org/p/1228310)
 - [Inline clock widget for KDE Plasma](https://www.opendesktop.org/p/1245902)
 
+<!--
 ### Motivate a developer
 
 In the past years I have spent quite some hours on open source projects. If you are the type of person who digs attention to detail, know how much work is involved in it and/or simply likes to support makers with a coffee or a beer I would greatly appreciate your donation on my [PayPayl](https://www.paypal.me/marianarlt) account.  
 Alternatively downloading my themes directly from opendesktop or with the kde sddm system settings module will at least help me a little to be able to attend your issues and requests.  
-Please consider helping developers you think are worth a penny or two, literally.
+Please consider helping developers you think are worth a penny or two, literally. -->
