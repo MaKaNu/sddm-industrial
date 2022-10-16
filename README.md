@@ -28,17 +28,17 @@ If for some reason you cannot find the category named "Login Screen (SDDM)" in y
 ###### From Arch Linux (Not READY)
 There is a packaged version of Industrial 
 
-###### From other desktop environments
+###### From other desktop environments (Not READY)
 
 [Download the tar archive from openDesktop](https://www.opendesktop.org/p/1272122) and extract the contents to the theme directory of SDDM *(change the path for the downloaded file if necessary)*:
 ```
-$ sudo tar -xzvf ~/Downloads/sugar-dark.tar.gz -C /usr/share/sddm/themes
+$ sudo tar -xzvf ~/Downloads/industrial.tar.gz -C /usr/share/sddm/themes
 ```
-This will extract all the files to a folder called "sugar-dark" inside of the themes directory of SDDM.  
+This will extract all the files to a folder called "industrial" inside of the themes directory of SDDM.  
 
 After that you will have to point SDDM to the new theme by editing its config file, preferrably at `/etc/sddm.conf.d/sddm.conf` *(create if necessary)*. You can take the default config file of SDDM as a reference: `/etc/sddm.conf/usr/lib/sddm/sddm.conf.d/sddm.conf`.  
 
-In the `[Theme]` section simply add the themes name: `Current=sugar-dark`. Also see the [Arch wiki on SDDM](https://wiki.archlinux.org/index.php/SDDM).
+In the `[Theme]` section simply add the themes name: `Current=industrial`. Also see the [Arch wiki on SDDM](https://wiki.archlinux.org/index.php/SDDM).
 
 ### Theming the theme
 
